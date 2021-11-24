@@ -1,0 +1,29 @@
+{
+  "name": "vacancies",
+  "version": "1.0.0",
+  "description": "Backend domain vacancies",
+  "keywords": [
+    "vacancies"
+  ],
+  "author": "diego lozano <jferdi24@gmail.com>",
+  "homepage": "https://github.com/Platzi-Master-C8/JP-Enterprise-backend#readme",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "src",
+    "test": "tests"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Platzi-Master-C8/JP-Enterprise-backend.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Platzi-Master-C8/JP-Enterprise-backend/issues"
+  }
+}
