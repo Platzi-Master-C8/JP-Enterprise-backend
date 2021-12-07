@@ -30,7 +30,7 @@ export class Vacancie extends Entity {
     },
 
   })
-  title_of_vacancie: string;
+  titleOfVacancie: string;
 
   @property({
     type: 'date',
@@ -40,7 +40,7 @@ export class Vacancie extends Entity {
       dataType: 'timestamp',
     },
   })
-  published_at?: string;
+  publishedAt?: string;
 
   @property({
     type: 'string',
@@ -70,7 +70,7 @@ export class Vacancie extends Entity {
       dataType: 'text',
     },
   })
-  vacancie_details: string;
+  vacancieDetails: string;
 
   @property({
     type: 'number',
@@ -80,7 +80,7 @@ export class Vacancie extends Entity {
       dataType: 'integer',
     },
   })
-  rol_id?: number;
+  rolId?: number;
 
   @property({
     type: 'date',
@@ -90,7 +90,7 @@ export class Vacancie extends Entity {
       dataType: 'timestamp',
     },
   })
-  postulation_deadline: string;
+  postulationDeadline: string;
 
   // Define well-known properties here
 
