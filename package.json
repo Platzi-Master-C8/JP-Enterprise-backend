@@ -56,10 +56,10 @@
     "@loopback/service-proxy": "^4.0.0",
     "dotenv": "^10.0.0",
     "loopback-connector-postgresql": "^5.4.0",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "@loopback/build": "^8.0.0"
   },
   "devDependencies": {
-    "@loopback/build": "^8.0.0",
     "@loopback/eslint-config": "^12.0.0",
     "@loopback/testlab": "^4.0.0",
     "@types/node": "^10.17.60",
