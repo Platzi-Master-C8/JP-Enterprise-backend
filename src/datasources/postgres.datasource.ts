@@ -4,12 +4,7 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'postgres',
   connector: 'postgresql',
-  url: 'postgres://admin:1234@localhost/gethire_enterprise',
-  host: 'localhost',
-  port: 5432,
-  user: 'admin',
-  password: '123456',
-  database: 'gethire_enterprise',
+  url: process.env.DATABASE_URL,
 };
 
 // Observe application's life cycle to disconnect the datasource when

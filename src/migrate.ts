@@ -1,4 +1,6 @@
+import * as dotenv from "dotenv";
 import {ApptestgethiredApplication} from './application';
+dotenv.config({path: __dirname + '/../.env'});
 
 export async function migrate(args: string[]) {
   const existingSchema = args.includes('--rebuild') ? 'drop' : 'alter';

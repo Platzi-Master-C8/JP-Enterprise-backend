@@ -1,1 +1,1 @@
-
+export * from './vacancie.controller';
